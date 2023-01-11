@@ -236,7 +236,7 @@ def main():
         save_state()
 
     log('Starting bot loop')
-    websocket.enableTrace(True)
+    # websocket.enableTrace(True)
     wsapp = websocket.WebSocketApp(
         WS_HOST_MAINNET,
         on_open=ws_open,
