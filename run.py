@@ -147,6 +147,7 @@ def ws_message(ws, message):
 
                 if exchange_order['status'] == 'FILLED':
                     # Cancel all other orders
+                    log(f'{exchange_order["side"]} order @ {exchange_order["price"]} size {exchange_order["size"]} filled')
                     for j in range(len(orders)):
                         try:
                             xchange.private.cancel_order(orders[j]['exchange_order']['id'])
