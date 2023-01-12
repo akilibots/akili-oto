@@ -9,4 +9,4 @@ def config():
             conf_string = f.read()
     
     return pyjson5.decode(conf_string)
-
+    
