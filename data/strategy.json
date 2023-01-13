@@ -3,13 +3,7 @@
     "name": "⛹️‍♂️",
     "market": "ATOM-USD"
   },
-  "dydx": {
-    "APIkey": "API key here. See https://twitter.com/ChrisJangita/status/1593531663597723648",
-    "APIsecret": "API secret here. See https://twitter.com/ChrisJangita/status/1593531663597723648",
-    "APIpassphrase": "API passphrase here. See https://twitter.com/ChrisJangita/status/1593531663597723648",
-    "stark_private_key": "As above. See https://twitter.com/ChrisJangita/status/1593531663597723648",
-    "default_ethereum_address": "See https://twitter.com/ChrisJangita/status/1593531663597723648"
-},
+
   "orders": [
     // id is a unique identifier for this order. id 0 are placed when the bot starts
     // next id is the id of the order to be placed if this  order is filled 
@@ -20,6 +14,5 @@
     { "id": 1, "next": 2, "price": 11.4, "size": 2, "side": "sell"},
     { "id": 2, "next": 1, "price": 11, "size": 2, "side": "buy"}
 
-  ],
-  "telegram": { "chatid": "117223531", "bottoken": "5892084672:AAEI-l4eMfAZDhQvIsJ4es9ON25L_T7CgbE" }
+  ]
 }
